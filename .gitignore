@@ -38,3 +38,9 @@ outputs/
 __pycache__/
 **/__pycache__/
 *.pyc
+
+# myOCR dataset images (regenerate via scripts/build_myocr_subset.py)
+data/myocr/images/
+
+# 20k backup dataset, superseded by the 150k final run; images not needed
+data/chn_subset_20k_backup/

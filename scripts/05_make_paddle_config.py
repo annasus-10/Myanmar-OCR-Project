@@ -40,7 +40,7 @@ def patch_dataset_section(section, data_dir, label_file):
         return
 
     dataset = section.get("dataset", {})
-    dataset["name"] = dataset.get("name", "SimpleDataSet")
+    dataset["name"] = "SimpleDataSet"
     dataset["data_dir"] = str(data_dir)
     dataset["label_file_list"] = [str(label_file)]
     section["dataset"] = dataset

@@ -1,0 +1,41 @@
+{
+  "n_samples": 2707,
+  "exact_match_accuracy": 0.2467676394532693,
+  "char_level_cer": 0.09087970182177765,
+  "grapheme_cluster_cer": 0.1219564533203628,
+  "op_counts": {
+    "del": 945,
+    "sub": 5891,
+    "ins": 1689
+  },
+  "category_counts": {
+    "sub:consonant": 5314,
+    "ins:consonant": 921,
+    "ins:vowel/diacritic": 524,
+    "del:consonant": 478,
+    "del:space": 318,
+    "sub:vowel/diacritic": 301,
+    "ins:space": 230,
+    "sub:space": 123,
+    "del:vowel/diacritic": 108,
+    "sub:digit": 104,
+    "sub:punctuation": 39,
+    "del:digit": 21,
+    "del:latin/other": 17,
+    "ins:digit": 10,
+    "sub:latin/other": 9,
+    "del:punctuation": 3,
+    "ins:latin/other": 2,
+    "sub:other_myanmar": 1,
+    "ins:punctuation": 1,
+    "ins:other_myanmar": 1
+  },
+  "diacritic_or_stacking_related_errors": 933,
+  "diacritic_share_of_all_errors": 0.10944281524926686,
+  "error_rate_by_grapheme_length_bucket": {
+    "9-15": 0.5837696335078534,
+    ">15": 0.7946265938069217,
+    "4-8": 0.5350877192982456,
+    "<=3": 0.6666666666666666
+  }
+}
