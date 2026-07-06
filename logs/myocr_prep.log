@@ -1,0 +1,13 @@
+nohup: ignoring input
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/18053 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 18053/18053 [00:00<00:00, 72073.57 examples/s]Generating train split: 100%|██████████| 18053/18053 [00:00<00:00, 70824.72 examples/s]
+Generating validation split:   0%|          | 0/5803 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 5803/5803 [00:00<00:00, 98231.26 examples/s]
+Converted 18053 examples -> data/myocr
+  test:     2707
+  finetune: 7673
+  dev:      7673
+
+Dictionary coverage check against data/chn_subset_20k_backup/myanmar_dict.txt:
+  myOCR unique chars: 89
+  OOV (not in CHN dict): 12
+  OOV chars (first 30): [' ', '°', 'ā', 'ʾ', '\u200b', '\u200c', '‘', '’', '“', '”', '−', '\ufeff']
